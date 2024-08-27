@@ -1,0 +1,73 @@
+body {
+    font-family: Poppins;
+    background-color: #f8f9fa;
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+
+.shoes img{
+    box-shadow: 32px 32px 24px 0px rgba(0, 0, 0, 0.3);
+}
+.btn{
+    position: relative;
+    right: 80px;
+    border-radius: 0%;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.nav-link {
+    color: black !important;
+    font-weight: 500;
+    margin-right: 15px;
+  position: relative;
+  left: 400px;
+}
+
+.hero-section {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+.hero-section h1 {
+    font-size: 5rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    font-family: Poppins;
+    color: black;
+    text-align: left;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.available-on img {
+    margin: 10px 5px;
+
+}
+
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 3.5rem;
+        text-align: center;
+    }
+    
+    .hero-section img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+    .nav-link{
+        position: relative;
+        left: 10px;
+       
+    }
+}
